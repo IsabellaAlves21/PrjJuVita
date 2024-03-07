@@ -5,7 +5,8 @@
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
-    
+    border-bottom: 12px solid #E57500;
+    background: #FFF;
 }
 
 .fa-magnifying-glass {
@@ -18,4 +19,226 @@
 
 .btn-pesquisa {
     height: 40px;
+}
+
+.sucos {
+    display: flex;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    
+}
+
+.btn {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: 2px solid var(--Verde, #6DC35D);
+    color: var(--Verde, #6DC35D);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.green{
+    color: var(--Verde, #6DC35D);
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.paragrafo {
+    color: #000;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.sucos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 200px 500px; */
+    grid-auto-rows: 1fr;
+    gap: 5px;
+    grid-template-areas:
+    "texto suco2"
+    "suco1 suco2";
+    background-color: var(--Laranja-Muito-Claro, #FFF9F3);
+}
+
+.texto {
+    grid-area: texto;
+    border-top: 12px solid var(--Verde, #6DC35D);
+}
+
+.suco1 {
+    grid-area: suco1;
+    background-image: url(../img/img-hsucos-h.png);
+    background-size: cover;
+    width: 610px;
+    height: 325px;
+ 
+  
+}
+
+.suco2 {
+    grid-area: suco2;
+    background-image: url(../img/img-vsucos-v.png);
+    background-size: cover;
+    width: 610px;
+    height: 687px;
+
+    
+}
+
+.texto-2 { 
+color: #000;
+font-family: Oswald;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 32px 0px;
+}
+
+.green2{
+    color: var(--Verde, #6DC35D);
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.texto2 {
+    grid-area: texto2;
+    border-top: 12px solid var(--Laranja-Escuro, #EC8922);
+}
+
+.btn2 {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: 2px solid #6DC35D;
+    background: var(--Verde, #6DC35D);
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.vitaminas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 200px 500px; */
+    grid-auto-rows: 1fr;
+    gap: 5px;
+    grid-template-areas:
+    "vita1 texto2"
+    "vita1 vita2";
+
+}
+
+.vita1 {
+    grid-area: vita1;
+    background-image: url(../img/img-vvitaminas-v.png);
+    background-size: cover;
+    width: 610px;
+height: 701px;
+}
+
+.vita2 {
+    grid-area: vita2;
+    background-image: url(../img/img-hvitaminas-h.png);
+    background-size: cover;
+    width: 610px;
+    height: 325px;
+}
+
+.titulo2 {
+    color: #000;
+font-family: Oswald;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.titulo3 {
+    color: #000;
+    font-family: Oswald;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.green3 {
+    color: var(--Verde, #6DC35D);
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.texto-3 {
+    color: #000;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pitaya {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 200px 500px; */
+    grid-auto-rows: 1fr;
+    gap: 5px;
+    grid-template-areas: 
+    "texto3 pitaya2";
+    background: var(--Laranja-Muito-Claro, #FFF9F3);
+}
+
+.texto3 {
+    grid-area: texto3;
+    border-top: 12px solid var(--Verde, #6DC35D);
+}
+
+.pitaya2 {
+    grid-area: pitaya2;
+    background-image: url(../img/img-vnew-pitaya-fresh.png);
+    background-size: cover;
+    width: 623px;
+    height: 689px;
+}
+
+.texto-4 {
+    color: #000;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
